@@ -1,22 +1,19 @@
 <?php
-session_star();
+session_start();
 ?>
 
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
 <meta charshet="UTF_8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title> Sesi 4 </title>
+<title> Sesi 4 - Error</title>
 </head>
 
 <body>
 <?php
-
-echo "Isi dari variable session alamat adalah :" . $_SESSION['alamat'];
-
+echo "Isi dari variabel session alamat adalah " . $_SESSION['alamat'];
 ?>
 </body>
 </html>

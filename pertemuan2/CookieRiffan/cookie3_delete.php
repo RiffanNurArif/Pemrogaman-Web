@@ -1,10 +1,9 @@
 <?php
-setcookie($cookie_name, $cookie_value, time() + 3600, "/");
+setcookie("user","", time() - 3600, "/");
 
 if(isset($_COOKIE['user'])) {
-    echo "Cookie " . 'user' . "telah diatur!"<br/>;
+    echo "Cookie " . 'user' . "telah diatur!<br/>";
     echo "Nilainya adalah  " . $_COOKIE['user'];
 } else{
-    echo "Nama Cookie ".$cookie_name."tidak diatur;
+    echo "Nama Cookie ". 'user' ." tidak diatur";
 }
-

@@ -1,5 +1,5 @@
 <?php
-session_star();
+session_start();
 ?>
 
 <!DOCTYPE html>
@@ -9,7 +9,7 @@ session_star();
 <meta charshet="UTF_8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title> Sesi 6 </title>
+<title> Sesi 6 - Destroy</title>
 </head>
 
 <body>
@@ -17,5 +17,4 @@ session_star();
 session_destroy();
 ?>
 </body>
-
 </html>
